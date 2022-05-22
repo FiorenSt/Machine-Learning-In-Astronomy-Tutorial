@@ -741,12 +741,6 @@ GPU architectures are .blue[excellent] for the kind of computations required by 
 
 <!-- .footnote[[Wikipedia: Nvidia GPUs](https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units)] -->
 
----
-## Deep learning software ecosystem
-
-.center[
-  <img src="img/frameworks.png" width="800px" vspace="30px"/>
-]
 
 ---
 ## Deep learning today
@@ -770,23 +764,6 @@ GPU architectures are .blue[excellent] for the kind of computations required by 
   <img src="img/dl_ex1.png" width="700px" vspace="30px"/>
 ]
 
----
-## Deep learning today
-
-.center[
-  <img src="img/dl_ex2.png" width="800px"/>
-]
-
----
-## DL today: speech synthesis
-
-.center[
-<img src="img/WaveNet.gif" style="width: 500px;" vspace="80px" />
-]
-
-.footnote[[WaveNet][wavenet] - TTS with sound generation - DeepMind (2017)]
-
-[wavenet]: https://deepmind.com/blog/high-fidelity-speech-synthesis-wavenet/
 
 ---
 ## DL today: image colorisation
