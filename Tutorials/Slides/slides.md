@@ -2,13 +2,10 @@ class: middle
 background-image: url(img/brain.png)
 
 # Hands on .red[neural networks]
-#### MML - Cours 08
 
 <!-- .bottomlogo[<img src="img/asterics_log.png" width='250px'>] -->
 
-.footnote[ Alexandre Boucaud  -  [@alxbcd][twitter]]
 
-[twitter]: https://twitter.com/alxbcd
 ---
 exclude: true
 class: middle
