@@ -50,6 +50,175 @@ Keras provides a high level API to create deep neural networks and train them us
 .footnote[*channels last]
 
 ---
+class: center, middle
+
+class: middle
+background-image: url(img/brain.png)
+
+# Hands on .red[deep learning]
+#### MML - Cours 09
+
+.footnote[ Alexandre Boucaud  -  [@alxbcd][twitter]]
+
+[twitter]: https://twitter.com/alxbcd
+---
+exclude: true
+class: middle
+background-image: url(img/brain.png)
+.hidden[aa]
+# Hands on .red[deep learning]
+.small[with [Keras][keras] examples]
+.footnote[Alexandre Boucaud  -  [@alxbcd][twitter]]
+
+---
+exclude: true
+<!-- class: center, middle -->
+## deep learning vs. physics arXiv
+<img src="img/arxiv-2019-04.png" , width="800px" / >
+
+---
+## What does "deep" means ?
+
+.center[
+<img src="img/imagenet.png" , width="700px" / >
+]
+
+.footnote[more on these common net architectures [here][archi]]
+
+[archi]: https://www.jeremyjordan.me/convnet-architectures/
+
+---
+## Why this recent trend ?
+
+- .medium[specialized .blue[hardware]] .right[e.g. GPU, TPU, Intel Xeon Phi]
+
+--
+- .medium[.blue[data] availability] .right[_big data era_]
+
+--
+- .medium[.blue[algorithm] research] .right[e.g. adversarial or reinforcement learning]
+
+--
+- .medium[.blue[open source] tools] .right[huge ecosystem right now]
+
+---
+## Graphics Processing Unit (GPU)
+
+- **< 2000** : "graphics cards" (video edition + game rendering)
+
+.center[<img src="img/msi.jpg" , width="450px">]
+
+---
+count: false
+## Graphics Processing Unit (GPU)
+
+- **< 2000** : "graphics cards" (video edition + game rendering)
+- .hidden[< ]**1999** : Nvidia coins the term "GPU" for the first time
+
+.center[<img src="img/cuda.jpg" , width="400px">]
+
+---
+count: false
+## Graphics Processing Unit (GPU)
+
+- **< 2000** : "graphics cards" (video edition + game rendering)
+- .hidden[< ]**1999** : Nvidia coins the term "GPU" for the first time
+- .hidden[< ]**2005** : programs start to be faster on GPU than on CPU
+
+---
+count: false
+## Graphics Processing Unit (GPU)
+
+- **< 2000** : "graphics cards" (video edition + game rendering)
+- .hidden[< ]**1999** : Nvidia coins the term "GPU" for the first time
+- .hidden[< ]**2005** : programs start to be faster on GPU than on CPU
+- .hidden[< ]**2016** : GPUs are part of our lives (phones, computers, cars, etc..)
+
+.center[<img src="img/nvidia_v100.jpg" , width="300px", vspace="50px"/ >]
+.footnote[credit: Nvidia Tesla V100]
+
+---
+## Computational power 
+GPU architectures are .blue[excellent] for the kind of computations required by the training of NN
+
+.center[<img src="img/tensor_core2.png" , width="600px", vspace="20px">]
+
+| year | hardware | computation (TFLOPS) | price (K$) |
+|------|:------:|:-----------:|:----:|
+| 2000 | IBM ASCI White | 12 | 100 000 K |
+| 2005 | IBM Blue Gene/L | 135 | 40 000 K |
+| 2018 | Nvidia Tesla V100 | > 100 | 10 K |
+<!-- | 2017 | Nvidia Titan V | > 100 | 3 K | -->
+
+<!-- .footnote[[Wikipedia: Nvidia GPUs](https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units)] -->
+
+
+---
+## Deep learning today
+
+.left-column[
+- translation
+- image captioning
+- speech synthesis
+- style transfer
+]
+
+.right-column[
+- cryptocurrency mining
+- self-driving cars
+- games 
+- etc.
+]
+
+.reset-column[]
+.center[
+  <img src="img/dl_ex1.png" width="700px" vspace="30px"/>
+]
+
+
+---
+## DL today: image colorisation
+
+.center[
+<img src="img/imgbw.png" style="width: 166px"/>
+]
+.center[
+<img src="img/imgcolor.png" style="width: 500px"/>
+]
+
+.footnote[[Real-time image colorization][deepcolor] (2017)]
+
+[deepcolor]: https://richzhang.github.io/ideepcolor/
+
+---
+## DL today: strategic game bots
+
+.center[
+<img src="img/starcraft-alpha_star.png" style="width: 700px"/>
+]
+
+.footnote[[AlphaStar][alphastar] - Starcraft II AI - DeepMind (2019)]
+
+[alphastar]: https://deepmind.com/blog/alphastar-mastering-real-time-strategy-game-starcraft-ii/
+
+
+---
+exclude: true
+class: center, middle
+
+### The sucess of ML applications is blatant,
+
+#### BUT
+
+### we are still .red[far]* from "Artificial Intelligence".
+
+.footnote[*see [nice post][mjordanmedium] by M. Jordan - Apr 2018]
+
+[mjordanmedium]: https://medium.com/@mijordan3/artificial-intelligence-the-revolution-hasnt-happened-yet-5e1d5812e1e7 
+
+
+
+---
 class: middle, center
 
 # What is a .red[neural network] made of ?
@@ -638,172 +807,6 @@ class: center, middle
 
 [cc]: http://creativecommons.org/licenses/by-sa/4.0
 
----
-class: center, middle
-
-class: middle
-background-image: url(img/brain.png)
-
-# Hands on .red[deep learning]
-#### MML - Cours 09
-
-.footnote[ Alexandre Boucaud  -  [@alxbcd][twitter]]
-
-[twitter]: https://twitter.com/alxbcd
----
-exclude: true
-class: middle
-background-image: url(img/brain.png)
-.hidden[aa]
-# Hands on .red[deep learning]
-.small[with [Keras][keras] examples]
-.footnote[Alexandre Boucaud  -  [@alxbcd][twitter]]
-
----
-exclude: true
-<!-- class: center, middle -->
-## deep learning vs. physics arXiv
-<img src="img/arxiv-2019-04.png" , width="800px" / >
-
----
-## What does "deep" means ?
-
-.center[
-<img src="img/imagenet.png" , width="700px" / >
-]
-
-.footnote[more on these common net architectures [here][archi]]
-
-[archi]: https://www.jeremyjordan.me/convnet-architectures/
-
----
-## Why this recent trend ?
-
-- .medium[specialized .blue[hardware]] .right[e.g. GPU, TPU, Intel Xeon Phi]
-
---
-- .medium[.blue[data] availability] .right[_big data era_]
-
---
-- .medium[.blue[algorithm] research] .right[e.g. adversarial or reinforcement learning]
-
---
-- .medium[.blue[open source] tools] .right[huge ecosystem right now]
-
----
-## Graphics Processing Unit (GPU)
-
-- **< 2000** : "graphics cards" (video edition + game rendering)
-
-.center[<img src="img/msi.jpg" , width="450px">]
-
----
-count: false
-## Graphics Processing Unit (GPU)
-
-- **< 2000** : "graphics cards" (video edition + game rendering)
-- .hidden[< ]**1999** : Nvidia coins the term "GPU" for the first time
-
-.center[<img src="img/cuda.jpg" , width="400px">]
-
----
-count: false
-## Graphics Processing Unit (GPU)
-
-- **< 2000** : "graphics cards" (video edition + game rendering)
-- .hidden[< ]**1999** : Nvidia coins the term "GPU" for the first time
-- .hidden[< ]**2005** : programs start to be faster on GPU than on CPU
-
----
-count: false
-## Graphics Processing Unit (GPU)
-
-- **< 2000** : "graphics cards" (video edition + game rendering)
-- .hidden[< ]**1999** : Nvidia coins the term "GPU" for the first time
-- .hidden[< ]**2005** : programs start to be faster on GPU than on CPU
-- .hidden[< ]**2016** : GPUs are part of our lives (phones, computers, cars, etc..)
-
-.center[<img src="img/nvidia_v100.jpg" , width="300px", vspace="50px"/ >]
-.footnote[credit: Nvidia Tesla V100]
-
----
-## Computational power 
-GPU architectures are .blue[excellent] for the kind of computations required by the training of NN
-
-.center[<img src="img/tensor_core2.png" , width="600px", vspace="20px">]
-
-| year | hardware | computation (TFLOPS) | price (K$) |
-|------|:------:|:-----------:|:----:|
-| 2000 | IBM ASCI White | 12 | 100 000 K |
-| 2005 | IBM Blue Gene/L | 135 | 40 000 K |
-| 2018 | Nvidia Tesla V100 | > 100 | 10 K |
-<!-- | 2017 | Nvidia Titan V | > 100 | 3 K | -->
-
-<!-- .footnote[[Wikipedia: Nvidia GPUs](https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units)] -->
-
-
----
-## Deep learning today
-
-.left-column[
-- translation
-- image captioning
-- speech synthesis
-- style transfer
-]
-
-.right-column[
-- cryptocurrency mining
-- self-driving cars
-- games 
-- etc.
-]
-
-.reset-column[]
-.center[
-  <img src="img/dl_ex1.png" width="700px" vspace="30px"/>
-]
-
-
----
-## DL today: image colorisation
-
-.center[
-<img src="img/imgbw.png" style="width: 166px"/>
-]
-.center[
-<img src="img/imgcolor.png" style="width: 500px"/>
-]
-
-.footnote[[Real-time image colorization][deepcolor] (2017)]
-
-[deepcolor]: https://richzhang.github.io/ideepcolor/
-
----
-## DL today: strategic game bots
-
-.center[
-<img src="img/starcraft-alpha_star.png" style="width: 700px"/>
-]
-
-.footnote[[AlphaStar][alphastar] - Starcraft II AI - DeepMind (2019)]
-
-[alphastar]: https://deepmind.com/blog/alphastar-mastering-real-time-strategy-game-starcraft-ii/
-
-
----
-exclude: true
-class: center, middle
-
-### The sucess of ML applications is blatant,
-
-#### BUT
-
-### we are still .red[far]* from "Artificial Intelligence".
-
-.footnote[*see [nice post][mjordanmedium] by M. Jordan - Apr 2018]
-
-[mjordanmedium]: https://medium.com/@mijordan3/artificial-intelligence-the-revolution-hasnt-happened-yet-5e1d5812e1e7 
 
 ---
 
