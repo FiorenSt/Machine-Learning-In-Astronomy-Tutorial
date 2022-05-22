@@ -15,11 +15,7 @@ class: middle
 background-image: url(img/brain.png)
 .hidden[aa]
 # Hands on .red[neural networks]
-.small[with [Keras][keras] examples]
-.footnote[Alexandre Boucaud  -  [@alxbcd][twitter]]
 
-[mail]: mailto:aboucaud@apc.in2p3.fr
-[twitter]: https://twitter.com/alxbcd
 
 ---
 ## Outline
@@ -95,7 +91,6 @@ All layers internal to the network (not input or output layer) are considered .g
 
 .center[<img src="img/mlp.jpg" width="600px" vspace="50px" />]
 
-.footnote[[cs231n.github.io](http://cs231n.github.io/)]
 
 ---
 ## Multi-layer perceptron (MLP)
@@ -890,15 +885,6 @@ needs to be changed to
 from tensorflow.keras.module import Toto
 ```
 otherwise the examples might not work.
-
----
-## Multi-layer perceptron
-
-The .green[classical] neural network, with an input vector $X_i$ where $i$ is the sample number.
-
-.center[<img src="img/mlp.jpg" width="600px" vspace="50px" />]
-
-.footnote[[cs231n.github.io](http://cs231n.github.io/)]
 
 ---
 ## Typical architecture
