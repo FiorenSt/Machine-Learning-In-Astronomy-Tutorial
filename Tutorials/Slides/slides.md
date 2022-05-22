@@ -1372,48 +1372,6 @@ count: false
 [kerasapp]: https://keras.io/applications/
 
 ---
-## Plot the training loss
-
-```python
-import matplotlib.pyplot as plt
-
-history = model.fit(X_train, y_train, validation_split=0.3)  
-
-# Visualizing the training                    
-plt.plot(history.history['loss'], label='training')
-plt.plot(history.history['val_loss'], label='validation')
-plt.xlabel('epochs'); plt.ylabel('loss'); plt.legend()
-```
-
-.center[<img src="img/loss.png" width="500px">]
-
----
-
-## Plot the training loss
-
-And look for the training .green[sweet spot] (before .red[overfitting]).
-
-.center[<img src="img/overfitting.png" width="550px">]
-
----
-## Plot other metrics
-
-```python
-import matplotlib.pyplot as plt
-
-model.compile(..., metrics=['acc'])  # computes other metrics, here accuracy
-
-history = model.fit(X_train, y_train, validation_split=0.3)
-
-# Visualizing the training                    
-plt.plot(history.history['acc'], label='training')
-plt.plot(history.history['val_acc'], label='validation')
-plt.xlabel('epochs'); plt.ylabel('accuracy'); plt.legend()
-```
-
-.center[<img src="img/accuracy.png" width="450px">]
-
----
 ## Tensorboard
 
 There is a [Keras callback](https://keras.io/callbacks/) to use Tensorboard
