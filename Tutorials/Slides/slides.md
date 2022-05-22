@@ -790,20 +790,6 @@ GPU architectures are .blue[excellent] for the kind of computations required by 
 
 [alphastar]: https://deepmind.com/blog/alphastar-mastering-real-time-strategy-game-starcraft-ii/
 
----
-## DL today: data science world
-
-.center[
- <img src="img/rapids.png" style="width: 200px"/>
-]
-
-.center[
-<img src="img/rapids-desc.png" style="width: 650px"/>
-]
-
-.footnote[[rapids.ai][rapids] - Nvidia (2019)]
-
-[rapids]: https://rapids.ai
 
 ---
 exclude: true
