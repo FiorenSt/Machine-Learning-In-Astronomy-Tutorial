@@ -50,18 +50,6 @@ Keras provides a high level API to create deep neural networks and train them us
 .footnote[*channels last]
 
 ---
-class: center, middle
-
-class: middle
-background-image: url(img/brain.png)
-
-# Hands on .red[deep learning]
-#### MML - Cours 09
-
-.footnote[ Alexandre Boucaud  -  [@alxbcd][twitter]]
-
-[twitter]: https://twitter.com/alxbcd
----
 exclude: true
 class: middle
 background-image: url(img/brain.png)
@@ -1483,16 +1471,9 @@ Here are some leads (random order) to explore if your model do not converge:
 - [various regularisation techniques](https://machinelearningmastery.com/how-to-reduce-overfitting-in-deep-learning-with-weight-regularization/)
 
 ---
-exclude: true
-## Next ?
+## Astro application
 
-.medium[ML developments are happening at a high pace,  
-.red[stay tuned] !  
-
-A .green[curated list] of inspirations for this presentation  
-can be found [here][refs].
-]
-
-[refs]: https://github.com/aboucaud/slides/blob/master/2018/hands-on-deep-learning/references.md
-
+Galaxied deblending with CNN 
 ---
+
+
