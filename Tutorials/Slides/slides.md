@@ -1473,7 +1473,5 @@ Here are some leads (random order) to explore if your model do not converge:
 ---
 ## Astro application
 
-Galaxied deblending with CNN 
----
-
+Deblending galaxies with Deep Learning
 
