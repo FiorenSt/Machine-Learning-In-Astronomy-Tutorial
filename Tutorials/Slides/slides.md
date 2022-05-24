@@ -51,6 +51,19 @@ Keras provides a high level API to create deep neural networks and train them us
 .footnote[*channels last]
 
 ---
+## What does "deep" mean?
+
+.center[
+<img src="img/imagenet.png" , width="700px" / >
+]
+
+.footnote[more on these common net architectures [here][archi]]
+
+[archi]: https://www.jeremyjordan.me/convnet-architectures/
+
+
+---
+
 ## Why this recent trend ?
 
 - .medium[specialized .blue[hardware]] .right[e.g. GPU, TPU, Intel Xeon Phi]
@@ -163,19 +176,6 @@ GPU architectures are .blue[excellent] for the kind of computations required by 
 .footnote[[AlphaStar][alphastar] - Starcraft II AI - DeepMind (2019)]
 
 [alphastar]: https://deepmind.com/blog/alphastar-mastering-real-time-strategy-game-starcraft-ii/
-
----
-
-## What does "deep" means ?
-
-.center[
-<img src="img/imagenet.png" , width="700px" / >
-]
-
-.footnote[more on these common net architectures [here][archi]]
-
-[archi]: https://www.jeremyjordan.me/convnet-architectures/
-
 
 ---
 class: middle, center
