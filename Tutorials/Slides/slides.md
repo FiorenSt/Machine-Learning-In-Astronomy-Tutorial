@@ -7,14 +7,6 @@ background-image: url(img/brain.png)
 
 
 ---
-exclude: true
-class: middle
-background-image: url(img/brain.png)
-.hidden[aa]
-# Hands on .red[neural networks]
-
-
----
 ## Outline
 
 .medium[
