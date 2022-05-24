@@ -1434,3 +1434,4 @@ Here are some leads (random order) to explore if your model do not converge:
 
 Deblending galaxies with Deep Learning
 
+[Colab tutorial]: https://colab.research.google.com/github/FiorenSt/Machine-Learning-In-Astronomy-Tutorial/blob/main/DeblendingGalaxiesTutorial.ipynb
