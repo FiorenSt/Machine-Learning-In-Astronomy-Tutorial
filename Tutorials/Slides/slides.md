@@ -1430,9 +1430,9 @@ Here are some leads (random order) to explore if your model do not converge:
 - [various regularisation techniques](https://machinelearningmastery.com/how-to-reduce-overfitting-in-deep-learning-with-weight-regularization/)
 
 ---
-## Astro application
+## Tutorial
 
-Deblending galaxies with Deep Learning
+### Deblending galaxies with Deep Learning
 
 [Colab tutorial]: https://colab.research.google.com/github/FiorenSt/Machine-Learning-In-Astronomy-Tutorial/blob/main/DeblendingGalaxiesTutorial.ipynb
 
