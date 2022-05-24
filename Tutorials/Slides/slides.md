@@ -247,7 +247,7 @@ count: false
 .left-column[
 ```python
 # (tf = tensorflow) 
-from tfw.keras.models import Sequential
+from tf.keras.models import Sequential
 from tf.keras.layers import Dense
 
 # initialize model
@@ -792,7 +792,7 @@ name: cnn
 ---
 # Outline
 
-.medium[.green[Neural nets]] -  
+.medium[.green[Neural nets]] 
 
 > hidden layers - activation - backpropagation - optimization
 
