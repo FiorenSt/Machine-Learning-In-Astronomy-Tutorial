@@ -784,7 +784,7 @@ name: cnn
 ---
 # Outline
 
-.medium[.green[Neural nets]] -  .small[(dernier cours)]
+.medium[.green[Neural nets]] -  
 
 > hidden layers - activation - backpropagation - optimization
 
