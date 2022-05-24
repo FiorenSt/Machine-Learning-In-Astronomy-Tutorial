@@ -31,6 +31,7 @@ background-image: url(img/brain.png)
 * [hands-on tutorial](#tuto)
 ]
 ---
+
 ## Foreword
 
 The following slides provide examples of neural network models written in _Python_, using the [Keras][keras] library and [TensorFlow][tf] tensor ordering convention*. 
@@ -48,32 +49,6 @@ Keras provides a high level API to create deep neural networks and train them us
 ]
 
 .footnote[*channels last]
-
----
-exclude: true
-class: middle
-background-image: url(img/brain.png)
-.hidden[aa]
-# Hands on .red[deep learning]
-.small[with [Keras][keras] examples]
-.footnote[Alexandre Boucaud  -  [@alxbcd][twitter]]
-
----
-exclude: true
-<!-- class: center, middle -->
-## deep learning vs. physics arXiv
-<img src="img/arxiv-2019-04.png" , width="800px" / >
-
----
-## What does "deep" means ?
-
-.center[
-<img src="img/imagenet.png" , width="700px" / >
-]
-
-.footnote[more on these common net architectures [here][archi]]
-
-[archi]: https://www.jeremyjordan.me/convnet-architectures/
 
 ---
 ## Why this recent trend ?
@@ -189,21 +164,17 @@ GPU architectures are .blue[excellent] for the kind of computations required by 
 
 [alphastar]: https://deepmind.com/blog/alphastar-mastering-real-time-strategy-game-starcraft-ii/
 
-
 ---
-exclude: true
-class: center, middle
 
-### The sucess of ML applications is blatant,
+## What does "deep" means ?
 
-#### BUT
+.center[
+<img src="img/imagenet.png" , width="700px" / >
+]
 
-### we are still .red[far]* from "Artificial Intelligence".
+.footnote[more on these common net architectures [here][archi]]
 
-.footnote[*see [nice post][mjordanmedium] by M. Jordan - Apr 2018]
-
-[mjordanmedium]: https://medium.com/@mijordan3/artificial-intelligence-the-revolution-hasnt-happened-yet-5e1d5812e1e7 
-
+[archi]: https://www.jeremyjordan.me/convnet-architectures/
 
 
 ---
