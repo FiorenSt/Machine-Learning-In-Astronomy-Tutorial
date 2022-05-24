@@ -223,8 +223,9 @@ All layers internal to the network (not input or output layer) are considered .g
 
 .left-column[
 ```python
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
+# (tf = tensorflow) 
+from tf.keras.models import Sequential
+from tf.keras.layers import Dense
 
 # initialize model
 model = Sequential()
@@ -245,8 +246,9 @@ count: false
 ## Multi-layer perceptron (MLP)
 .left-column[
 ```python
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
+# (tf = tensorflow) 
+from tfw.keras.models import Sequential
+from tf.keras.layers import Dense
 
 # initialize model
 model = Sequential()
@@ -273,8 +275,9 @@ count: false
 ## Multi-layer perceptron (MLP)
 .left-column[
 ```python
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
+# (tf = tensorflow) 
+from tf.keras.models import Sequential
+from tf.keras.layers import Dense
 
 model = Sequential()
 
@@ -304,8 +307,9 @@ count: false
 ## Multi-layer perceptron (MLP)
 .left-column[
 ```python
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
+# (tf = tensorflow)
+from tf.keras.models import Sequential
+from tf.keras.layers import Dense
 
 model = Sequential()
 
@@ -337,8 +341,9 @@ count: false
 ## Multi-layer perceptron (MLP)
 .left-column[
 ```python
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
+# (tf = tensorflow)
+from tf.keras.models import Sequential
+from tf.keras.layers import Dense
 
 model = Sequential()
 
@@ -376,8 +381,9 @@ exclude: True
 ## Multi-layer perceptron (MLP)
 
 ```python
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
+# (tf = tensorflow)
+from tf.keras.models import Sequential
+from tf.keras.layers import Dense
 
 # initialize model
 model = Sequential()
@@ -466,7 +472,8 @@ model.add(Dense(4, input_dim=3, activation='sigmoid'))
 or as an .green[additional layer] to the stack
 
 ```python
-from tensorflow.keras.layers import Activation
+# (tf = tensorflow)
+from tf.keras.layers import Activation
 
 model = Sequential()
 model.add(Dense(4, input_dim=3))
@@ -630,8 +637,9 @@ model.compile(optimizer='adam', loss='binary_crossentropy')
 ```
 or with better access to optimization parameters
 ```python
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.losses import binary_crossentropy
+# (tf = tensorflow)
+from tf.keras.optimizers import Adam
+from tf.keras.losses import binary_crossentropy
 
 model.compile(optimizer=Adam(lr=0.01, decay=0.1), 
               loss=binary_crossentropy)
@@ -856,8 +864,9 @@ class: middle
 
 .left-column[
 ```python
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Conv2D
+# (tf = tensorflow)
+from tf.keras.models import Sequential
+from tf.keras.layers import Conv2D
 
 model = Sequential()
 # First conv needs input_shape
@@ -891,8 +900,9 @@ model.add(Conv2D(32, (3, 3)))
 
 .left-column[
 ```python
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Conv2D
+# (tf = tensorflow)
+from tf.keras.models import Sequential
+from tf.keras.layers import Conv2D
 
 model = Sequential()
 model.add(
@@ -926,8 +936,9 @@ _________________________________________
 
 .left-column[
 ```python
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Conv2D
+# (tf = tensorflow)
+from tf.keras.models import Sequential
+from tf.keras.layers import Conv2D
 
 model = Sequential()
 model.add(Conv2D(1, (3, 3), 
@@ -973,9 +984,10 @@ _________________________________________
 
 .left-column[
 ```python
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Conv2D
-from tensorflow.keras.layers import MaxPool2D
+# (tf = tensorflow)
+from tf.keras.models import Sequential
+from tf.keras.layers import Conv2D
+from tf.keras.layers import MaxPool2D
 
 model = Sequential()
 model.add(Conv2D(1, (3, 3), 
@@ -1009,8 +1021,9 @@ __________________________________________________
 
 .left-column[
 ```python
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Conv2D
+# (tf = tensorflow)
+from tf.keras.models import Sequential
+from tf.keras.layers import Conv2D
 
 model = Sequential()
 model.add(Conv2D(1, (3, 3), 
@@ -1055,11 +1068,12 @@ exclude: true
 .left-column[
 
 ```python
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Conv2D
-from tensorflow.keras.layers import MaxPool2D
-from tensorflow.keras.layers import Flatten
-from tensorflow.keras.layers import Dense
+# (tf = tensorflow)
+from tf.keras.models import Sequential
+from tf.keras.layers import Conv2D
+from tf.keras.layers import MaxPool2D
+from tf.keras.layers import Flatten
+from tf.keras.layers import Dense
 
 model = Sequential()
 
@@ -1111,12 +1125,13 @@ exclude: true
 .left-column[
 
 ```python
-from tensorflow.keras.models import Model
-from tensorflow.keras.layers import Input
-from tensorflow.keras.layers import Conv2D
-from tensorflow.keras.layers import MaxPool2D
-from tensorflow.keras.layers import Flatten
-from tensorflow.keras.layers import Dense
+# (tf = tensorflow)
+from tf.keras.models import Model
+from tf.keras.layers import Input
+from tf.keras.layers import Conv2D
+from tf.keras.layers import MaxPool2D
+from tf.keras.layers import Flatten
+from tf.keras.layers import Dense
 
 input = Input((32, 32, 1))
 x = Conv2D(10, (5, 5))(input)
@@ -1169,8 +1184,9 @@ model.compile(optimizer='adam', loss='mse')
 ```
 or with better access to optimization parameters
 ```python
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.losses import MSE
+# (tf = tensorflow)
+from tf.keras.optimizers import Adam
+from tf.keras.losses import MSE
 
 model.compile(optimizer=Adam(lr=0.01, decay=0.1), 
               loss=MSE)
@@ -1361,7 +1377,8 @@ it mimics different architectures being trained at each step
 
 ```python
 ...
-from tensorflow.keras.layers import Dropout
+# (tf = tensorflow)
+from tf.keras.layers import Dropout
 
 dropout_rate = 0.25
 
@@ -1386,8 +1403,9 @@ model.add(Conv2D(4, (3, 3)))
 
 ```python
 ...
-from tensorflow.keras.layers import BatchNormalization
-from tensorflow.keras.layers import Activation
+# (tf = tensorflow)
+from tf.keras.layers import BatchNormalization
+from tf.keras.layers import Activation
 
 model = Sequential()
 model.add(Conv2D(..., activation=None))
