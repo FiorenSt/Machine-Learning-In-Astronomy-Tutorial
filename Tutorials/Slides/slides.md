@@ -769,6 +769,19 @@ class: center, middle
 
 ---
 
+class: middle, center
+
+## QUESTION:
+
+### How would you feed .red[images] to a MLP ?
+
+---
+class: middle, center
+name: cnn
+
+# .red[Convolutional] Neural Networks
+
+---
 # Outline
 
 .medium[.green[Neural nets]] -  .small[(dernier cours)]
@@ -824,36 +837,10 @@ otherwise the examples might not work.
     - sigmoid/tanh (bounded outputs)
 
 ---
-class: middle, center
 
-## QUESTION:
 
-### How would you feed .red[images] to a MLP ?
 
----
-class: middle, center
-name: cnn
 
-# .red[Convolutional] Neural Networks
-
----
-exclude: true
-## Zoo of neural networks #1
-.singleimg[![](img/nnzoo1.png)]
-
-.footnote[[Neural network zoo][nnzoo] - Fjodor van Veen (2016)]
-
----
-exclude: true
-## Zoo of neural networks #2
-
-.singleimg[![](img/nnzoo2.png)]
-
-.footnote[[Neural network zoo][nnzoo] - Fjodor van Veen (2016)]
-
-[nnzoo]: http://www.asimovinstitute.org/neural-network-zoo/
-
----
 class: middle
 ### Classical convolutional net (CNN)
 
