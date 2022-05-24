@@ -223,8 +223,8 @@ All layers internal to the network (not input or output layer) are considered .g
 
 .left-column[
 ```python
-from keras.models import Sequential
-from keras.layers import Dense
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
 
 # initialize model
 model = Sequential()
@@ -245,8 +245,8 @@ count: false
 ## Multi-layer perceptron (MLP)
 .left-column[
 ```python
-from keras.models import Sequential
-from keras.layers import Dense
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
 
 # initialize model
 model = Sequential()
@@ -273,8 +273,8 @@ count: false
 ## Multi-layer perceptron (MLP)
 .left-column[
 ```python
-from keras.models import Sequential
-from keras.layers import Dense
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
 
 model = Sequential()
 
@@ -304,8 +304,8 @@ count: false
 ## Multi-layer perceptron (MLP)
 .left-column[
 ```python
-from keras.models import Sequential
-from keras.layers import Dense
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
 
 model = Sequential()
 
@@ -337,8 +337,8 @@ count: false
 ## Multi-layer perceptron (MLP)
 .left-column[
 ```python
-from keras.models import Sequential
-from keras.layers import Dense
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
 
 model = Sequential()
 
@@ -376,8 +376,8 @@ exclude: True
 ## Multi-layer perceptron (MLP)
 
 ```python
-from keras.models import Sequential
-from keras.layers import Dense
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
 
 # initialize model
 model = Sequential()
@@ -466,7 +466,7 @@ model.add(Dense(4, input_dim=3, activation='sigmoid'))
 or as an .green[additional layer] to the stack
 
 ```python
-from keras.layers import Activation
+from tensorflow.keras.layers import Activation
 
 model = Sequential()
 model.add(Dense(4, input_dim=3))
@@ -630,8 +630,8 @@ model.compile(optimizer='adam', loss='binary_crossentropy')
 ```
 or with better access to optimization parameters
 ```python
-from keras.optimizers import Adam
-from keras.losses import binary_crossentropy
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.losses import binary_crossentropy
 
 model.compile(optimizer=Adam(lr=0.01, decay=0.1), 
               loss=binary_crossentropy)
@@ -806,20 +806,6 @@ name: cnn
 
 > data augmentation - dropout - batch normalisation
 
----
-## ⚠️  Important side note ⚠️
-
-As a consequence of a massive code change in TensorFlow between versions 1.x and 2.x, with versions of **TensorFlow** above 2.x, .red[all Python imports] from the code examples in this lecture .red[need to be modified] as follows:  .red[`keras`] become .red[`tensorflow.keras`]
-
-**Example**
-```python
-from keras.module import Toto
-```
-needs to be changed to
-```python
-from tensorflow.keras.module import Toto
-```
-otherwise the examples might not work.
 
 ---
 ## Typical architecture
@@ -837,9 +823,6 @@ otherwise the examples might not work.
     - sigmoid/tanh (bounded outputs)
 
 ---
-
-
-
 
 class: middle
 ### Classical convolutional net (CNN)
@@ -873,8 +856,8 @@ class: middle
 
 .left-column[
 ```python
-from keras.models import Sequential
-from keras.layers import Conv2D
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D
 
 model = Sequential()
 # First conv needs input_shape
@@ -908,8 +891,8 @@ model.add(Conv2D(32, (3, 3)))
 
 .left-column[
 ```python
-from keras.models import Sequential
-from keras.layers import Conv2D
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D
 
 model = Sequential()
 model.add(
@@ -943,8 +926,8 @@ _________________________________________
 
 .left-column[
 ```python
-from keras.models import Sequential
-from keras.layers import Conv2D
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D
 
 model = Sequential()
 model.add(Conv2D(1, (3, 3), 
@@ -990,9 +973,9 @@ _________________________________________
 
 .left-column[
 ```python
-from keras.models import Sequential
-from keras.layers import Conv2D
-from keras.layers import MaxPool2D
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D
+from tensorflow.keras.layers import MaxPool2D
 
 model = Sequential()
 model.add(Conv2D(1, (3, 3), 
@@ -1026,8 +1009,8 @@ __________________________________________________
 
 .left-column[
 ```python
-from keras.models import Sequential
-from keras.layers import Conv2D
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D
 
 model = Sequential()
 model.add(Conv2D(1, (3, 3), 
@@ -1072,11 +1055,11 @@ exclude: true
 .left-column[
 
 ```python
-from keras.models import Sequential
-from keras.layers import Conv2D
-from keras.layers import MaxPool2D
-from keras.layers import Flatten
-from keras.layers import Dense
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D
+from tensorflow.keras.layers import MaxPool2D
+from tensorflow.keras.layers import Flatten
+from tensorflow.keras.layers import Dense
 
 model = Sequential()
 
@@ -1128,12 +1111,12 @@ exclude: true
 .left-column[
 
 ```python
-from keras.models import Model
-from keras.layers import Input
-from keras.layers import Conv2D
-from keras.layers import MaxPool2D
-from keras.layers import Flatten
-from keras.layers import Dense
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input
+from tensorflow.keras.layers import Conv2D
+from tensorflow.keras.layers import MaxPool2D
+from tensorflow.keras.layers import Flatten
+from tensorflow.keras.layers import Dense
 
 input = Input((32, 32, 1))
 x = Conv2D(10, (5, 5))(input)
@@ -1186,8 +1169,8 @@ model.compile(optimizer='adam', loss='mse')
 ```
 or with better access to optimization parameters
 ```python
-from keras.optimizers import Adam
-from keras.losses import MSE
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.losses import MSE
 
 model.compile(optimizer=Adam(lr=0.01, decay=0.1), 
               loss=MSE)
@@ -1224,8 +1207,8 @@ After each epoch, the model will compute the loss on the validation set to produ
 [Callbacks](https://keras.io/callbacks/) are methods that act on the model during training, e.g.
 
 ```python
-from keras.callbacks import ModelCheckpoint
-from keras.callbacks import EarlyStopping
+from tensorflow.keras.callbacks import ModelCheckpoint
+from tensorflow.keras.callbacks import EarlyStopping
 
 # Save the weights of the model based on lowest val_loss value
 chkpt = ModelCheckpoint('weights.h5', save_best_only=True)
@@ -1378,7 +1361,7 @@ it mimics different architectures being trained at each step
 
 ```python
 ...
-from keras.layers import Dropout
+from tensorflow.keras.layers import Dropout
 
 dropout_rate = 0.25
 
@@ -1403,8 +1386,8 @@ model.add(Conv2D(4, (3, 3)))
 
 ```python
 ...
-from keras.layers import BatchNormalization
-from keras.layers import Activation
+from tensorflow.keras.layers import BatchNormalization
+from tensorflow.keras.layers import Activation
 
 model = Sequential()
 model.add(Conv2D(..., activation=None))
