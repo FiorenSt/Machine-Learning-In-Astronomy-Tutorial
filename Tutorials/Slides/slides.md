@@ -192,10 +192,10 @@ GPU architectures are .blue[excellent] for the kind of computations required by 
 ## DL in astronomy: source localization
 
 .left-column[
-<img src="img/HSTField10396.png" style="width: 400px"/>
+<img src="img/HSTField10396.png" style="width: 350px"/>
 ]
 .rigth-column[
-<img src="img/HSTFieldM16.png" style="width: 400px"/>
+<img src="img/HSTFieldM16.png" style="width: 350px"/>
 ]
 
 .footnote[ASID-L - Stoppa et al. (2022)]
