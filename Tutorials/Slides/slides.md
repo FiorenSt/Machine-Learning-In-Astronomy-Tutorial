@@ -846,23 +846,6 @@ name: cnn
 
 ---
 
-class: middle
-### Classical convolutional net (CNN)
-
-.center[
-  <img src="img/blend_to_flux.png", width="800px", vspace="20px", hspace="0px"/>
-]
-
----
-class: middle
-### Fully convolutional net (FCNN)
-
-.center[
-  <img src="img/U_net.png", width="700px", vspace="10px", hspace="0px"/>
-]
-
----
-
 ## Convolutional Neural Networks
 
 - elegant way of passing .green[tensors] to a network
@@ -994,6 +977,12 @@ _________________________________________
 .footnote[[cs231n.github.io](http://cs231n.github.io/)]
 
 ---
+## Filters in action 
+
+<img src="img/convolution_gifs/filters.gif" />
+
+
+---
 ## Pooling layers
 
 .left-column[
@@ -1066,6 +1055,25 @@ model.add(Conv2D(1, (3, 3),
 .footnote[*not been proven (yet) but adopted empirically]
 
 ---
+class: middle
+### Classical convolutional net (CNN)
+
+.center[
+  <img src="img/blend_to_flux.png", width="800px", vspace="20px", hspace="0px"/>
+]
+
+---
+class: middle
+### Fully convolutional net (FCNN)
+
+.center[
+  <img src="img/U_net.png", width="700px", vspace="10px", hspace="0px"/>
+]
+
+---
+
+
+
 class: center, middle
 
 # EXERCICE
