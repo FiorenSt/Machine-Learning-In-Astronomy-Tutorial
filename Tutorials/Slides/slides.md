@@ -173,22 +173,29 @@ GPU architectures are .blue[excellent] for the kind of computations required by 
 ## DL in astronomy: for exoplanets
 
 .center[
-<img src="img/DetectingExoplanets.png" style="width: 700px"/>
+<img src="img/DetectingExoplanets.PNG" style="width: 700px"/>
 ]
+
+.footnote[[Yip Waldman et al.](2019)]
 
 ---
 ## DL in astronomy: for lensing detection
 
 .center[
-<img src="img/Lensing.png" style="width: 700px"/>
+<img src="img/Lensing.PNG" style="width: 500px"/>
 ]
+
+.footnote[[CMUDeepLens][CMUDeepLens] - Lanusse et al. (2018)]
+
 
 ---
 ## DL in astronomy: for source localization
 
 .center[
-<img src="img/HSTField10396.png" style="width: 700px"/>
+<img src="img/HSTField10396.png" style="width: 500px"/>
 ]
+
+.footnote[[ASID-L][ASID-L] - Stoppa et al. (2022)]
 
 
 ---
