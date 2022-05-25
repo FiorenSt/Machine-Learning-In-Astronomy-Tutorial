@@ -170,7 +170,7 @@ GPU architectures are .blue[excellent] for the kind of computations required by 
 [alphastar]: https://deepmind.com/blog/alphastar-mastering-real-time-strategy-game-starcraft-ii/
 
 ---
-## DL in astronomy: for exoplanets
+## DL in astronomy: exoplanets
 
 .center[
 <img src="img/DetectingExoplanets.PNG" style="width: 700px"/>
@@ -179,7 +179,7 @@ GPU architectures are .blue[excellent] for the kind of computations required by 
 .footnote[Yip Waldman et al. (2019)]
 
 ---
-## DL in astronomy: for lensing detection
+## DL in astronomy: strong lensing 
 
 .center[
 <img src="img/Lensing.PNG" style="width: 700px"/>
@@ -189,7 +189,7 @@ GPU architectures are .blue[excellent] for the kind of computations required by 
 
 
 ---
-## DL in astronomy: for source localization
+## DL in astronomy: source localization
 
 .left[
 <img src="img/HSTField10396.png" style="width: 300px"/>
