@@ -191,14 +191,11 @@ GPU architectures are .blue[excellent] for the kind of computations required by 
 ---
 ## DL in astronomy: source localization
 
-.left[
+.center[
 <img src="img/HSTField10396.png" style="width: 300px"/>
 ]
 
-
-.right[
-<img src="img/HSTFieldM16.png" style="width: 300px"/>
-]
+Synoptic telescopes can already take images of the size of 100 Mpixels every 15 − 60 seconds; this processing speed creates a real bottleneck, and thus there is a need for analysis techniques that can efficiently keep up with this trend and can naturally deal with large amounts of data.
 
 .footnote[ASID-L - Stoppa et al. (2022)]
 
