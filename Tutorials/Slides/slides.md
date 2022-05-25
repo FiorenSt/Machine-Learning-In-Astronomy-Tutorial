@@ -975,7 +975,7 @@ _________________________________________
 ---
 ## Filters in action 
 
-.center[<img src="img/filters.gif" width="400px" />]
+.center[<img src="img/filters.gif" width="700px" />]
 
 
 
