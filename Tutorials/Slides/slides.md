@@ -176,26 +176,31 @@ GPU architectures are .blue[excellent] for the kind of computations required by 
 <img src="img/DetectingExoplanets.PNG" style="width: 700px"/>
 ]
 
-.footnote[[Yip Waldman et al.](2019)]
+.footnote[Yip Waldman et al. (2019)]
 
 ---
 ## DL in astronomy: for lensing detection
 
 .center[
-<img src="img/Lensing.PNG" style="width: 500px"/>
+<img src="img/Lensing.PNG" style="width: 700px"/>
 ]
 
-.footnote[[CMUDeepLens][CMUDeepLens] - Lanusse et al. (2018)]
+.footnote[CMUDeepLens - Lanusse et al. (2018)]
 
 
 ---
 ## DL in astronomy: for source localization
 
-.center[
-<img src="img/HSTField10396.png" style="width: 500px"/>
+.left[
+<img src="img/HSTField10396.png" style="width: 300px"/>
 ]
 
-.footnote[[ASID-L][ASID-L] - Stoppa et al. (2022)]
+
+.right[
+<img src="img/HSTFieldM16.png" style="width: 300px"/>
+]
+
+.footnote[ASID-L - Stoppa et al. (2022)]
 
 
 ---
@@ -971,6 +976,13 @@ _________________________________________
 .footnote[[arXiv:1603.07285](https://arxiv.org/abs/1603.07285)]
 
 ---
+## Filters in action 
+
+
+[<img src="img/convolution_gifs/filters.gif"/>]
+
+
+---
 ## Pooling layers
 
 - reduces the spatial size of the representation (downsampling)<br/>
@@ -982,11 +994,6 @@ _________________________________________
   <img src="img/maxpool.jpeg" width="600px" vspace="20px"/>
 ]
 .footnote[[cs231n.github.io](http://cs231n.github.io/)]
-
----
-## Filters in action 
-
-<img src="img/convolution_gifs/filters.gif" />
 
 
 ---
