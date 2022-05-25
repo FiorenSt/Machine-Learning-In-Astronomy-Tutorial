@@ -978,8 +978,8 @@ _________________________________________
 ---
 ## Filters in action 
 
+.center[<img src="img/filters.gif" width="400px" />]
 
-[<img src="img/convolution_gifs/filters.gif"/>]
 
 
 ---
