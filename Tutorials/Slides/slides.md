@@ -5,6 +5,7 @@ background-image: url(img/brain.png)
 
 <!-- .bottomlogo[<img src="img/asterics_log.png" width='250px'>] -->
 
+.footnote[*Fiorenzo Stoppa*]
 
 ---
 ## Outline
