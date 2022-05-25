@@ -196,6 +196,8 @@ GPU architectures are .blue[excellent] for the kind of computations required by 
 <img src="img/HSTFieldM16.png" style="width: 320px"/>
 ]
 
+Source localization has to be fast enough to keep up with synoptic telescopes.
+
 .footnote[ASID-L - Stoppa et al. (2022)]
 
 
