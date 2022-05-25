@@ -193,8 +193,6 @@ GPU architectures are .blue[excellent] for the kind of computations required by 
 
 .center[
 <img src="img/HSTField10396.png" style="width: 320px"/>
-]
-.ceter[
 <img src="img/HSTFieldM16.png" style="width: 320px"/>
 ]
 
