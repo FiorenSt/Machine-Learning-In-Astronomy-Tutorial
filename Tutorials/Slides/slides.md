@@ -170,6 +170,28 @@ GPU architectures are .blue[excellent] for the kind of computations required by 
 [alphastar]: https://deepmind.com/blog/alphastar-mastering-real-time-strategy-game-starcraft-ii/
 
 ---
+## DL in astronomy: for exoplanets
+
+.center[
+<img src="img/DetectingExoplanets.png" style="width: 700px"/>
+]
+
+---
+## DL in astronomy: for lensing detection
+
+.center[
+<img src="img/Lensing.png" style="width: 700px"/>
+]
+
+---
+## DL in astronomy: for source localization
+
+.center[
+<img src="img/HSTField10396.png" style="width: 700px"/>
+]
+
+
+---
 class: middle, center
 
 # What is a .red[neural network] made of ?
