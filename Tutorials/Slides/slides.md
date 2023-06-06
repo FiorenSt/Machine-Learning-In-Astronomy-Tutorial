@@ -1090,7 +1090,7 @@ class: middle
 
 ---
 class: middle
-### Fully convolutional net (FCNN)
+### U-NET
 
 .center[
   <img src="img/U_net.png", width="700px", vspace="10px", hspace="0px"/>
