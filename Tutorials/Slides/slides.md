@@ -193,7 +193,7 @@ GPU architectures are .blue[excellent] for the kind of computations required by 
 ## DL in astronomy: source localization
 
 .center[
-<img src="img/HSTField10396.png" style="width: 450px"/>]
+<img src="img/HSTField10396.png" style="width: 400px"/>]
 
 Source localization has to be fast enough to keep up with synoptic telescopes.
 
@@ -204,10 +204,9 @@ Source localization has to be fast enough to keep up with synoptic telescopes.
 ## DL in astronomy: feature extraction
 
 .center[
-<img src="img/Crowded_image_page-0001.jpg" style="width: 250px"/>
-<img src="img/Crowded_image_2_page-0001.jpg" style="width: 250px"/>
-<img src="img/Crowded_image_3_page-0001.jpg" style="width: 250px"/>
-<img src="img/Crowded_image_4_page-0001.jpg" style="width: 250px"/>
+<img src="img/Crowded_image_page-0001.jpg" style="width: 230px"/>
+<img src="img/Crowded_image_2_page-0001.jpg" style="width: 230px"/>
+<img src="img/Crowded_image_4_page-0001.jpg" style="width: 230px"/>
 ]
 
 Feature extraction with machine learning achieves better performance than traditional tools.
