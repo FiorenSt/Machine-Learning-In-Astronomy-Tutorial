@@ -215,9 +215,9 @@ class: middle, center
 <img src="img/Crowded_image_4_page-0001.jpg" style="width: 320px"/>
 ]
 
-Source localization has to be fast enough to keep up with synoptic telescopes.
+Feature extraction with machine learning achieves better performance than traditional tools.
 
-.footnote[ASID-L - Stoppa et al. (2022)]
+.footnote[ASID-FE - Stoppa et al. (2023)]
 
 
 ---
