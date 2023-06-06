@@ -209,10 +209,10 @@ class: middle, center
 ## DL in astronomy: feature extraction
 
 .center[
-<img src="img/Crowded_image.pdf" style="width: 320px"/>
-<img src="img/Crowded_image_2.pdf" style="width: 320px"/>
-<img src="img/Crowded_image_3.pdf" style="width: 320px"/>
-<img src="img/Crowded_image_4.pdf" style="width: 320px"/>
+<img src="img/Crowded_image_page-0001.jpg" style="width: 320px"/>
+<img src="img/Crowded_image_2_page-0001.jpg" style="width: 320px"/>
+<img src="img/Crowded_image_3_page-0001.jpg" style="width: 320px"/>
+<img src="img/Crowded_image_4_page-0001.jpg" style="width: 320px"/>
 ]
 
 Source localization has to be fast enough to keep up with synoptic telescopes.
