@@ -170,14 +170,6 @@ GPU architectures are .blue[excellent] for the kind of computations required by 
 
 [alphastar]: https://deepmind.com/blog/alphastar-mastering-real-time-strategy-game-starcraft-ii/
 
----
-## DL in astronomy: exoplanets
-
-.center[
-<img src="img/DetectingExoplanets.PNG" style="width: 700px"/>
-]
-
-.footnote[Yip Waldman et al. (2019)]
 
 ---
 ## DL in astronomy: strong lensing 
@@ -188,14 +180,20 @@ GPU architectures are .blue[excellent] for the kind of computations required by 
 
 .footnote[CMUDeepLens - Lanusse et al. (2018)]
 
+---
+## DL in astronomy: exoplanets
+
+.center[
+<img src="img/DetectingExoplanets.PNG" style="width: 700px"/>
+]
+
+.footnote[Yip Waldman et al. (2019)]
 
 ---
 ## DL in astronomy: source localization
 
 .center[
-<img src="img/HSTField10396.png" style="width: 320px"/>
-<img src="img/HSTFieldM16.png" style="width: 320px"/>
-]
+<img src="img/HSTField10396.png" style="width: 450px"/>]
 
 Source localization has to be fast enough to keep up with synoptic telescopes.
 
@@ -206,10 +204,10 @@ Source localization has to be fast enough to keep up with synoptic telescopes.
 ## DL in astronomy: feature extraction
 
 .center[
-<img src="img/Crowded_image_page-0001.jpg" style="width: 220px"/>
-<img src="img/Crowded_image_2_page-0001.jpg" style="width: 220px"/>
-<img src="img/Crowded_image_3_page-0001.jpg" style="width: 220px"/>
-<img src="img/Crowded_image_4_page-0001.jpg" style="width: 220px"/>
+<img src="img/Crowded_image_page-0001.jpg" style="width: 250px"/>
+<img src="img/Crowded_image_2_page-0001.jpg" style="width: 250px"/>
+<img src="img/Crowded_image_3_page-0001.jpg" style="width: 250px"/>
+<img src="img/Crowded_image_4_page-0001.jpg" style="width: 250px"/>
 ]
 
 Feature extraction with machine learning achieves better performance than traditional tools.
