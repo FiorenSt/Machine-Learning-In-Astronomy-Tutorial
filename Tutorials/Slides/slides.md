@@ -203,9 +203,6 @@ Source localization has to be fast enough to keep up with synoptic telescopes.
 
 
 ---
-class: middle, center
-
----
 ## DL in astronomy: feature extraction
 
 .center[
