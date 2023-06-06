@@ -206,10 +206,10 @@ Source localization has to be fast enough to keep up with synoptic telescopes.
 ## DL in astronomy: feature extraction
 
 .center[
-<img src="img/Crowded_image_page-0001.jpg" style="width: 320px"/>
-<img src="img/Crowded_image_2_page-0001.jpg" style="width: 320px"/>
-<img src="img/Crowded_image_3_page-0001.jpg" style="width: 320px"/>
-<img src="img/Crowded_image_4_page-0001.jpg" style="width: 320px"/>
+<img src="img/Crowded_image_page-0001.jpg" style="width: 160px"/>
+<img src="img/Crowded_image_2_page-0001.jpg" style="width: 160px"/>
+<img src="img/Crowded_image_3_page-0001.jpg" style="width: 160px"/>
+<img src="img/Crowded_image_4_page-0001.jpg" style="width: 160px"/>
 ]
 
 Feature extraction with machine learning achieves better performance than traditional tools.
